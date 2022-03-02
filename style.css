@@ -1,0 +1,48 @@
+body {
+	background-color: rgb(19, 101, 107);
+	font-size: 22px;
+	font-family: sans-serif;
+}
+#container {
+	background-color: whitesmoke;
+	border-radius: 2%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+	margin: 8% 15%;
+	text-align: center;
+}
+.payment {
+	padding: 15px;
+	color: rgb(75, 75, 75);
+}
+h1 {
+	color: rgb(75, 75, 75);
+	font-size: 3rem;
+	padding-top: 3%;
+}
+h3 {
+	color: rgb(75, 75, 75);
+}
+form {
+	margin: 5%;
+	color: rgb(75, 75, 75);
+}
+input {
+	font-size: 18px;
+	color: rgb(75, 75, 75);
+}
+.buttons {
+	padding: 3.5%;
+}
+
+.btn {
+	font-size: 18px;
+	border-radius: 10%;
+	color: rgb(75, 75, 75);
+}
+.btn:hover {
+	cursor: pointer;
+	box-shadow: 0 0.4rem 1.4rem 0 rgba(19, 101, 107, 0.5);
+	transform: translateY(-0.1rem);
+	transition: transform 150ms;
+}
